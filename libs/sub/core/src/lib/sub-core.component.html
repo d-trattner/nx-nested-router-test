@@ -1,6 +1,9 @@
 SUB CORE
-<!-- <button routerLink="page">Load SUB-PAGE</button> -->
-<button (click)="loadSubPage('page')">Load SUB-PAGE (page)</button>
-<button (click)="loadSubPage('sub/page')">Load SUB-PAGE (sub/page)</button>
-<button (click)="loadSubPage('core/sub/page')">Load SUB-PAGE (core/sub/page)</button>
-<router-outlet></router-outlet>
+<!-- <button routerLink="page">Load SUB-PAGE</button> --><br/>
+<button (click)="loadSubPage('page')">Load SUB-PAGE (page)</button><br/>
+<button (click)="loadSubPage('sub/page')">Load SUB-PAGE (sub/page)</button><br/>
+<button (click)="loadSubPage('core/sub/page')">Load SUB-PAGE (core/sub/page)</button><br/>
+<button (click)="loadSubPage('page2')">Load SUB-PAGE2 (page2)</button><br/>
+<button (click)="loadSubPage('sub/page2')">Load SUB-PAGE2 (sub/page2)</button><br/>
+<button (click)="loadSubPage('core/sub/page2')">Load SUB-PAGE2 (core/sub/page2)</button><br/>
+<p><router-outlet></router-outlet></p>

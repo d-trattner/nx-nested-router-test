@@ -1,5 +1,6 @@
 import { Component, inject } from '@angular/core';
-import { Router } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
+import { PageFacade } from '@test/sub-page';
 
 @Component({
   selector: 'test-sub-core',
@@ -8,9 +9,15 @@ import { Router } from '@angular/router';
 })
 export class SubCoreComponent {
 
+  private pageFacade = inject(PageFacade);
+
   private router = inject(Router);
+  private activatedRoute = inject(ActivatedRoute);
 
   loadSubPage(route: string) {
-    this.router.navigate([route]);
+    this.pageFacade.navigatePage(route);
+    // console.log(this.router.url);
+    // console.log(this.activatedRoute);
+    // this.router.navigate([route], { relativeTo: this.activatedRoute });
   }
 }
