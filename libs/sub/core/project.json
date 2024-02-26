@@ -1,0 +1,9 @@
+{
+  "name": "sub-core",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/sub/core/src",
+  "prefix": "test",
+  "tags": [],
+  "projectType": "library",
+  "targets": {}
+}

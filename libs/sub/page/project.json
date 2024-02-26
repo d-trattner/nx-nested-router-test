@@ -1,0 +1,9 @@
+{
+  "name": "sub-page",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/sub/page/src",
+  "prefix": "test",
+  "tags": [],
+  "projectType": "library",
+  "targets": {}
+}

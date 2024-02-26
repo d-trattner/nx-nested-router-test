@@ -1,0 +1,9 @@
+{
+  "name": "app-core",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/app/core/src",
+  "prefix": "test",
+  "tags": [],
+  "projectType": "library",
+  "targets": {}
+}

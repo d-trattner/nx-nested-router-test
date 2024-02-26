@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@test/app-core": ["libs/app/core/src/index.ts"],
+      "@test/sub-core": ["libs/sub/core/src/index.ts"],
+      "@test/sub-page": ["libs/sub/page/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
